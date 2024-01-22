@@ -560,10 +560,6 @@ video {
   left: 3%;
 }
 
-.right-10 {
-  right: 2.5rem;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -572,8 +568,8 @@ video {
   top: 3rem;
 }
 
-.top-2 {
-  top: 0.5rem;
+.top-3 {
+  top: 0.75rem;
 }
 
 .top-\[30\%\] {
@@ -582,54 +578,6 @@ video {
 
 .top-\[55px\] {
   top: 55px;
-}
-
-.top-3 {
-  top: 0.75rem;
-}
-
-.right-6 {
-  right: 1.5rem;
-}
-
-.right-12 {
-  right: 3rem;
-}
-
-.right-3 {
-  right: 0.75rem;
-}
-
-.right-32 {
-  right: 8rem;
-}
-
-.right-4 {
-  right: 1rem;
-}
-
-.right-44 {
-  right: 11rem;
-}
-
-.right-40 {
-  right: 10rem;
-}
-
-.right-\[1\] {
-  right: 1;
-}
-
-.right-\[150px\] {
-  right: 150px;
-}
-
-.right-\[140px\] {
-  right: 140px;
-}
-
-.right-\[143px\] {
-  right: 143px;
 }
 
 .z-10 {
@@ -700,26 +648,6 @@ video {
   height: 20%;
 }
 
-.h-7 {
-  height: 1.75rem;
-}
-
-.h-9 {
-  height: 2.25rem;
-}
-
-.h-1 {
-  height: 0.25rem;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
 .max-h-14 {
   max-height: 3.5rem;
 }
@@ -730,16 +658,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-spin {
-  animation: spin 1s linear infinite;
 }
 
 @keyframes bounce {
@@ -760,22 +678,6 @@ video {
 
 .scroll-m-48 {
   scroll-margin: 12rem;
-}
-
-.scroll-mt-96 {
-  scroll-margin-top: 24rem;
-}
-
-.scroll-mt-72 {
-  scroll-margin-top: 18rem;
-}
-
-.scroll-mt-px {
-  scroll-margin-top: 1px;
-}
-
-.scroll-mt-\[500px\] {
-  scroll-margin-top: 500px;
 }
 
 .scroll-mt-\[510px\] {
@@ -1000,22 +902,8 @@ video {
   transition-duration: 150ms;
 }
 
-.transition-transform {
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .duration-1000 {
   transition-duration: 1000ms;
-}
-
-.duration-100 {
-  transition-duration: 100ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
 }
 
 .duration-500 {
@@ -1037,6 +925,84 @@ video {
 .hover\:text-red-600:hover {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:right-\[200px\] {
+    right: 200px;
+  }
+
+  .sm\:right-\[18px\] {
+    right: 18px;
+  }
+
+  .sm\:right-\[180px\] {
+    right: 180px;
+  }
+
+  .sm\:right-\[170px\] {
+    right: 170px;
+  }
+
+  .sm\:right-\[165px\] {
+    right: 165px;
+  }
+
+  .sm\:right-\[168px\] {
+    right: 168px;
+  }
+
+  .sm\:right-\[167px\] {
+    right: 167px;
+  }
+
+  .sm\:right-\[\] {
+    right: ;
+  }
+
+  .sm\:right-\[10\] {
+    right: 10;
+  }
+
+  .sm\:right-\[10\%\] {
+    right: 10%;
+  }
+
+  .sm\:right-\[7\%\] {
+    right: 7%;
+  }
+
+  .sm\:right-\[5\%\] {
+    right: 5%;
+  }
+
+  .sm\:right-\[4\%\] {
+    right: 4%;
+  }
+
+  .sm\:right-\[20\%\] {
+    right: 20%;
+  }
+
+  .sm\:right-\[2\] {
+    right: 2;
+  }
+
+  .sm\:right-6 {
+    right: 1.5rem;
+  }
+
+  .sm\:right-4 {
+    right: 1rem;
+  }
+
+  .sm\:right-7 {
+    right: 1.75rem;
+  }
+
+  .sm\:right-10 {
+    right: 2.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1072,80 +1038,12 @@ video {
     width: 100%;
   }
 
-  .lg\:-scroll-mt-96 {
-    scroll-margin-top: -24rem;
-  }
-
-  .lg\:-scroll-mt-\[50px\] {
-    scroll-margin-top: -50px;
-  }
-
-  .lg\:scroll-mt-\[510px\] {
-    scroll-margin-top: 510px;
-  }
-
-  .lg\:scroll-mt-\[710px\] {
-    scroll-margin-top: 710px;
-  }
-
-  .lg\:scroll-mt-\[910px\] {
-    scroll-margin-top: 910px;
-  }
-
-  .lg\:-scroll-mt-\[410px\] {
-    scroll-margin-top: -410px;
-  }
-
-  .lg\:-scroll-mt-\[610px\] {
-    scroll-margin-top: -610px;
-  }
-
-  .lg\:-scroll-mt-\[910px\] {
-    scroll-margin-top: -910px;
-  }
-
-  .lg\:scroll-mt-\[410px\] {
-    scroll-margin-top: 410px;
-  }
-
   .lg\:-scroll-mt-0 {
     scroll-margin-top: -0px;
   }
 
-  .lg\:-scroll-mt-\[20px\] {
-    scroll-margin-top: -20px;
-  }
-
-  .lg\:-scroll-mt-\[10px\] {
-    scroll-margin-top: -10px;
-  }
-
-  .lg\:-scroll-mt-\[2px\] {
-    scroll-margin-top: -2px;
-  }
-
-  .lg\:scroll-mt-\[2px\] {
-    scroll-margin-top: 2px;
-  }
-
-  .lg\:scroll-mt-\[20px\] {
-    scroll-margin-top: 20px;
-  }
-
-  .lg\:scroll-mt-\[60px\] {
-    scroll-margin-top: 60px;
-  }
-
-  .lg\:scroll-mt-\[100px\] {
-    scroll-margin-top: 100px;
-  }
-
-  .lg\:scroll-mt-\[200px\] {
-    scroll-margin-top: 200px;
-  }
-
-  .lg\:scroll-mt-\[180px\] {
-    scroll-margin-top: 180px;
+  .lg\:-scroll-mt-\[50px\] {
+    scroll-margin-top: -50px;
   }
 
   .lg\:scroll-mt-\[175px\] {
